@@ -1,9 +1,9 @@
 /*
  * Teabox demuxer object for Max/MSP
  * Written by Tim Place
- * Copyright © 2004 by Electrotap L.L.C.
+ * Copyright ï¿½ 2004 by Electrotap L.L.C.
  *
- * Pd port Copyright © 2007 by Olaf Matthes, <olaf.matthes@gmx.de>.
+ * Pd port Copyright ï¿½ 2007 by Olaf Matthes, <olaf.matthes@gmx.de>.
  *
 
     This library is free software; you can redistribute it and/or
@@ -60,6 +60,8 @@ typedef struct _teabox
 // Prototypes for methods: need a method for each incoming message type:
 static t_int *teabox_perform(t_int *w);									// An MSP Perform (signal) Method
 #ifdef PD
+void teabox_bits_tilde_setup(void);
+void teabox_count_tilde_setup(void);
 static void teabox_dsp(t_teabox *x, t_signal **sp);
 #else
 static void teabox_dsp(t_teabox *x, t_signal **sp, short *count);			// DSP Method
@@ -87,6 +89,13 @@ void teabox_tilde_setup(void)
     class_addmethod(teabox_class, (t_method)teabox_getstatus,	gensym("getstatus"), 0);
 
     class_sethelpsymbol(teabox_class, gensym("help-teabox~.pd"));
+	
+#ifdef UB
+	// For the Pd Mac-Universal-Binary build (from Xcode) we need to setup the classes here 
+	// This way they will be available in Pd by just adding teabox~ to the startup libs
+	teabox_bits_tilde_setup();
+	teabox_count_tilde_setup();
+#endif
 }
 
 #else	/* Max/MSP */

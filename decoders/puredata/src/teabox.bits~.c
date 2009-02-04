@@ -1,7 +1,7 @@
 /*
  * Teabox bit decoder object for Max/MSP
  * Written by Tim Place
- * Copyright © 2004 by Electrotap L.L.C.
+ * Copyright ï¿½ 2004 by Electrotap L.L.C.
  *
  
     This library is free software; you can redistribute it and/or
@@ -152,7 +152,9 @@ static t_int *teabox_bits_perform(t_int *w)
 	short	i;
 	long	bitmask;
 	
+#ifndef PD
 	t_teabox_bits	*x = (t_teabox_bits *)(w[1]);		
+#endif
 	t_float			*in = (t_float *)(w[2]);	// input
 	int 			n = (int)(w[3]);
 	for(i=0; i<16; i++)
