@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		222E618510BB43A6005EEED0 /* teabox~.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222E618410BB43A6005EEED0 /* teabox~.cpp */; };
-		222E619110BB43D5005EEED0 /* commonsyms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222E619010BB43D5005EEED0 /* commonsyms.cpp */; };
-		222E619B10BB43E1005EEED0 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222E619910BB43E1005EEED0 /* MaxAPI.framework */; };
-		222E619C10BB43E1005EEED0 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222E619A10BB43E1005EEED0 /* MaxAudioAPI.framework */; };
+		222E609410BB0113005EEED0 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222E609310BB0113005EEED0 /* MaxAPI.framework */; };
+		222E609710BB011D005EEED0 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222E609610BB011D005EEED0 /* MaxAudioAPI.framework */; };
+		222E60A110BB0134005EEED0 /* commonsyms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222E60A010BB0134005EEED0 /* commonsyms.cpp */; };
+		222E60A310BB0143005EEED0 /* 74Objects.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 222E60A210BB0143005EEED0 /* 74Objects.xcconfig */; };
+		222E60A610BB0160005EEED0 /* teabox.mfl~.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222E60A510BB0160005EEED0 /* teabox.mfl~.cpp */; };
+		22B3254C0F810FA600218E59 /* libportaudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B3254B0F810FA600218E59 /* libportaudio.a */; };
+		22B325610F8114C400218E59 /* pa_asio.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B325590F8114C400218E59 /* pa_asio.h */; };
+		22B325620F8114C400218E59 /* pa_jack.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B3255A0F8114C400218E59 /* pa_jack.h */; };
+		22B325630F8114C400218E59 /* pa_linux_alsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B3255B0F8114C400218E59 /* pa_linux_alsa.h */; };
+		22B325640F8114C400218E59 /* pa_mac_core.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B3255C0F8114C400218E59 /* pa_mac_core.h */; };
+		22B325650F8114C400218E59 /* pa_win_ds.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B3255D0F8114C400218E59 /* pa_win_ds.h */; };
+		22B325660F8114C400218E59 /* pa_win_waveformat.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B3255E0F8114C400218E59 /* pa_win_waveformat.h */; };
+		22B325670F8114C400218E59 /* pa_win_wmme.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B3255F0F8114C400218E59 /* pa_win_wmme.h */; };
+		22B325680F8114C400218E59 /* portaudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B325600F8114C400218E59 /* portaudio.h */; };
 		22B3266C0F811A1900218E59 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B326680F811A1900218E59 /* CoreAudio.framework */; };
 		22B3266D0F811A1900218E59 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B326690F811A1900218E59 /* AudioToolbox.framework */; };
 		22B3266E0F811A1900218E59 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B3266A0F811A1900218E59 /* AudioUnit.framework */; };
@@ -18,16 +28,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		222E618410BB43A6005EEED0 /* teabox~.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "teabox~.cpp"; sourceTree = "<group>"; };
-		222E618610BB43C1005EEED0 /* 74Objects.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = 74Objects.xcconfig; path = ../74Objects.xcconfig; sourceTree = SOURCE_ROOT; };
-		222E619010BB43D5005EEED0 /* commonsyms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = commonsyms.cpp; path = "../../../objectivemax/SDKs/Max5/c74support/max-includes/common/commonsyms.cpp"; sourceTree = SOURCE_ROOT; };
-		222E619910BB43E1005EEED0 /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = "../../../objectivemax/SDKs/Max5/c74support/max-includes/MaxAPI.framework"; sourceTree = SOURCE_ROOT; };
-		222E619A10BB43E1005EEED0 /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = "../../../objectivemax/SDKs/Max5/c74support/msp-includes/MaxAudioAPI.framework"; sourceTree = SOURCE_ROOT; };
+		222E609310BB0113005EEED0 /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = "../../objectivemax/SDKs/Max5/c74support/max-includes/MaxAPI.framework"; sourceTree = SOURCE_ROOT; };
+		222E609610BB011D005EEED0 /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = "../../objectivemax/SDKs/Max5/c74support/msp-includes/MaxAudioAPI.framework"; sourceTree = SOURCE_ROOT; };
+		222E60A010BB0134005EEED0 /* commonsyms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = commonsyms.cpp; path = "../../objectivemax/SDKs/Max5/c74support/max-includes/common/commonsyms.cpp"; sourceTree = SOURCE_ROOT; };
+		222E60A210BB0143005EEED0 /* 74Objects.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = 74Objects.xcconfig; sourceTree = "<group>"; };
+		222E60A510BB0160005EEED0 /* teabox.mfl~.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "teabox.mfl~.cpp"; sourceTree = "<group>"; };
+		22B3254B0F810FA600218E59 /* libportaudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libportaudio.a; path = portaudio/libportaudio.a; sourceTree = "<group>"; };
+		22B325590F8114C400218E59 /* pa_asio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pa_asio.h; sourceTree = "<group>"; };
+		22B3255A0F8114C400218E59 /* pa_jack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pa_jack.h; sourceTree = "<group>"; };
+		22B3255B0F8114C400218E59 /* pa_linux_alsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pa_linux_alsa.h; sourceTree = "<group>"; };
+		22B3255C0F8114C400218E59 /* pa_mac_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pa_mac_core.h; sourceTree = "<group>"; };
+		22B3255D0F8114C400218E59 /* pa_win_ds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pa_win_ds.h; sourceTree = "<group>"; };
+		22B3255E0F8114C400218E59 /* pa_win_waveformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pa_win_waveformat.h; sourceTree = "<group>"; };
+		22B3255F0F8114C400218E59 /* pa_win_wmme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pa_win_wmme.h; sourceTree = "<group>"; };
+		22B325600F8114C400218E59 /* portaudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = portaudio.h; sourceTree = "<group>"; };
 		22B326680F811A1900218E59 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
 		22B326690F811A1900218E59 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
 		22B3266A0F811A1900218E59 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
 		22B3266B0F811A1900218E59 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
-		2FBBEAE508F335360078DB84 /* teabox~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "teabox~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBBEAE508F335360078DB84 /* teabox.mfl~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "teabox.mfl~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,12 +54,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B3254C0F810FA600218E59 /* libportaudio.a in Frameworks */,
 				22B3266C0F811A1900218E59 /* CoreAudio.framework in Frameworks */,
 				22B3266D0F811A1900218E59 /* AudioToolbox.framework in Frameworks */,
 				22B3266E0F811A1900218E59 /* AudioUnit.framework in Frameworks */,
 				22B3266F0F811A1900218E59 /* CoreServices.framework in Frameworks */,
-				222E619B10BB43E1005EEED0 /* MaxAPI.framework in Frameworks */,
-				222E619C10BB43E1005EEED0 /* MaxAudioAPI.framework in Frameworks */,
+				222E609410BB0113005EEED0 /* MaxAPI.framework in Frameworks */,
+				222E609710BB011D005EEED0 /* MaxAudioAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,8 +70,9 @@
 		089C166AFE841209C02AAC07 /* iterator */ = {
 			isa = PBXGroup;
 			children = (
-				222E618610BB43C1005EEED0 /* 74Objects.xcconfig */,
+				222E60A210BB0143005EEED0 /* 74Objects.xcconfig */,
 				08FB77ADFE841716C02AAC07 /* Source */,
+				22B325580F8114C400218E59 /* include */,
 				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
 				19C28FB4FE9D528D11CA2CBB /* Products */,
 			);
@@ -61,12 +82,13 @@
 		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				22B3254B0F810FA600218E59 /* libportaudio.a */,
 				22B326680F811A1900218E59 /* CoreAudio.framework */,
 				22B326690F811A1900218E59 /* AudioToolbox.framework */,
 				22B3266A0F811A1900218E59 /* AudioUnit.framework */,
 				22B3266B0F811A1900218E59 /* CoreServices.framework */,
-				222E619910BB43E1005EEED0 /* MaxAPI.framework */,
-				222E619A10BB43E1005EEED0 /* MaxAudioAPI.framework */,
+				222E609310BB0113005EEED0 /* MaxAPI.framework */,
+				222E609610BB011D005EEED0 /* MaxAudioAPI.framework */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
@@ -74,8 +96,8 @@
 		08FB77ADFE841716C02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				222E618410BB43A6005EEED0 /* teabox~.cpp */,
-				222E619010BB43D5005EEED0 /* commonsyms.cpp */,
+				222E60A510BB0160005EEED0 /* teabox.mfl~.cpp */,
+				222E60A010BB0134005EEED0 /* commonsyms.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -83,9 +105,25 @@
 		19C28FB4FE9D528D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FBBEAE508F335360078DB84 /* teabox~.mxo */,
+				2FBBEAE508F335360078DB84 /* teabox.mfl~.mxo */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		22B325580F8114C400218E59 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				22B325590F8114C400218E59 /* pa_asio.h */,
+				22B3255A0F8114C400218E59 /* pa_jack.h */,
+				22B3255B0F8114C400218E59 /* pa_linux_alsa.h */,
+				22B3255C0F8114C400218E59 /* pa_mac_core.h */,
+				22B3255D0F8114C400218E59 /* pa_win_ds.h */,
+				22B3255E0F8114C400218E59 /* pa_win_waveformat.h */,
+				22B3255F0F8114C400218E59 /* pa_win_wmme.h */,
+				22B325600F8114C400218E59 /* portaudio.h */,
+			);
+			name = include;
+			path = portaudio/include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +133,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B325610F8114C400218E59 /* pa_asio.h in Headers */,
+				22B325620F8114C400218E59 /* pa_jack.h in Headers */,
+				22B325630F8114C400218E59 /* pa_linux_alsa.h in Headers */,
+				22B325640F8114C400218E59 /* pa_mac_core.h in Headers */,
+				22B325650F8114C400218E59 /* pa_win_ds.h in Headers */,
+				22B325660F8114C400218E59 /* pa_win_waveformat.h in Headers */,
+				22B325670F8114C400218E59 /* pa_win_wmme.h in Headers */,
+				22B325680F8114C400218E59 /* portaudio.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +163,7 @@
 			);
 			name = "max-external";
 			productName = iterator;
-			productReference = 2FBBEAE508F335360078DB84 /* teabox~.mxo */;
+			productReference = 2FBBEAE508F335360078DB84 /* teabox.mfl~.mxo */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +171,7 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "teabox~" */;
+			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "teabox.mfl~" */;
 			compatibilityVersion = "Xcode 3.0";
 			hasScannedForEncodings = 1;
 			mainGroup = 089C166AFE841209C02AAC07 /* iterator */;
@@ -142,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222E60A310BB0143005EEED0 /* 74Objects.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222E618510BB43A6005EEED0 /* teabox~.cpp in Sources */,
-				222E619110BB43D5005EEED0 /* commonsyms.cpp in Sources */,
+				222E60A110BB0134005EEED0 /* commonsyms.cpp in Sources */,
+				222E60A610BB0160005EEED0 /* teabox.mfl~.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +231,7 @@
 		};
 		2FBBEAE108F335360078DB84 /* Development */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 222E618610BB43C1005EEED0 /* 74Objects.xcconfig */;
+			baseConfigurationReference = 222E60A210BB0143005EEED0 /* 74Objects.xcconfig */;
 			buildSettings = {
 				ARCHS = i386;
 				COPY_PHASE_STRIP = NO;
@@ -193,8 +240,6 @@
 					"\"$(SRCROOT)/../../c74support/msp-includes\"",
 					"\"$(SRCROOT)/../../objectivemax/SDKs/Max5/c74support/max-includes\"",
 					"\"$(SRCROOT)/../../objectivemax/SDKs/Max5/c74support/msp-includes\"",
-					"\"$(SRCROOT)/../../../objectivemax/SDKs/Max5/c74support/max-includes\"",
-					"\"$(SRCROOT)/../../../objectivemax/SDKs/Max5/c74support/msp-includes\"",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				LIBRARY_SEARCH_PATHS = (
@@ -207,7 +252,7 @@
 		};
 		2FBBEAE208F335360078DB84 /* Deployment */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 222E618610BB43C1005EEED0 /* 74Objects.xcconfig */;
+			baseConfigurationReference = 222E60A210BB0143005EEED0 /* 74Objects.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					ppc,
@@ -219,8 +264,6 @@
 					"\"$(SRCROOT)/../../c74support/msp-includes\"",
 					"\"$(SRCROOT)/../../objectivemax/SDKs/Max5/c74support/max-includes\"",
 					"\"$(SRCROOT)/../../objectivemax/SDKs/Max5/c74support/msp-includes\"",
-					"\"$(SRCROOT)/../../../objectivemax/SDKs/Max5/c74support/max-includes\"",
-					"\"$(SRCROOT)/../../../objectivemax/SDKs/Max5/c74support/msp-includes\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -233,7 +276,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "teabox~" */ = {
+		2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "teabox.mfl~" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FBBEAD008F335010078DB84 /* Development */,

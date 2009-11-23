@@ -1,7 +1,7 @@
 /*
  * Teabox demuxer object for Max/MSP
  * Written by Tim Place
- * Copyright © 2004 by Electrotap L.L.C.
+ * Copyright ï¿½ 2004 by Electrotap L.L.C.
  *
 
     This library is free software; you can redistribute it and/or
@@ -96,10 +96,10 @@ void *teabox_new(void)
 // Method for Assistance Messages
 void teabox_assist(t_teabox *x, void *b, long msg, long arg, char *dst)
 {
-	if(msg == 1)		// Inlets
-		strcpy(dst, "(signal) Input");
-	else if(msg == 2){	// Outlets
-		switch(arg){
+	if (msg == 1)		// Inlets
+		strcpy (dst, "(signal) Input");
+	else if (msg == 2) {	// Outlets
+		switch (arg) {
 			case 0: strcpy(dst, "(signal) Demultiplexed Sensor Signal 1"); break;
 			case 1: strcpy(dst, "(signal) Demultiplexed Sensor Signal 2"); break;
 			case 2: strcpy(dst, "(signal) Demultiplexed Sensor Signal 3"); break;
@@ -112,7 +112,6 @@ void teabox_assist(t_teabox *x, void *b, long msg, long arg, char *dst)
 			case 9: strcpy(dst, "(attributes) dumpout"); break;
 		}
 	}
-		strcpy(dst, "(signal) Demultiplexed Output");
 }
 
 
