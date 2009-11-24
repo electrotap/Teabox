@@ -1,3 +1,6 @@
 build
 *.pbxuser
 *.mode*
+.svn
+*.mxo
+*.zip
