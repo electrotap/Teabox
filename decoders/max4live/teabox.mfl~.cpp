@@ -155,7 +155,7 @@ void* teabox_mfl_new(t_symbol *msg, short argc, t_atom *argv)
     if (x) {
 		x->sampleRate = sys_getsr();
 		x->vectorSize = sys_getblksize();
-		x->iovs = sys_getmaxblksize();				// see comment in the dsp method
+		x->iovs = sys_getmaxblksize() * 2;				// see comment in the dsp method
 		x->attrChannel = 1;
 		x->counter = 0;								// init member values
 		x->hw_version = 0;
@@ -534,8 +534,7 @@ void teabox_mfl_dsp(t_teabox_mfl *x, t_signal **sp, short *count)
 	teabox_mfl_stop(x);
 	
 	// we don't really use this as the iovs, it's really the buffer size -- which we want to have be plenty large
-	x->iovs = sys_getmaxblksize();
-
+	x->iovs = sys_getmaxblksize() * 2;
 	if (sp[0]->s_n != x->vectorSize) {
 		x->vectorSize = sp[0]->s_n;
 		teabox_mfl_initStream(x);
