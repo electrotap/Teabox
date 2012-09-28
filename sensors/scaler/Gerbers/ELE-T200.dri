@@ -1,0 +1,38 @@
+Drill Station Info File: C:/Program Files/EAGLE-4.11/projects/ELE-T200_Scaler/ELE-T200.dri
+
+ Date              :  9/02/2004 07:53:49a
+ Drills            : C:/Program Files/EAGLE-4.11/projects/ELE-T200_Scaler/ELE-T200.drl
+ Device            : Excellon drill station
+
+Parameter settings:
+
+ Tolerance Drill + :  2.50 %
+ Tolerance Drill - :  2.50 %
+ Rotate            : no
+ Mirror            : no
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+ Layers            : Drills Holes
+
+Drill File Info:
+
+ Data Mode         : Absolute
+ Units             : 1/1000 Inch
+ End Of Block      : CR/LF
+
+Drills used:
+
+ Code  Size       used
+
+ T01   24.000mil     9
+ T02   32.000mil     6
+ T03   40.000mil     6
+ T04   125.000mil     2
+
+Total number of drills: 23
+
+Plotfiles:
+
+ C:/Program Files/EAGLE-4.11/projects/ELE-T200_Scaler/ELE-T200.drd
