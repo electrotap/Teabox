@@ -1,0 +1,12 @@
+EAGLE Version 4.11 Copyright (c) 1988-2003 CadSoft
+
+Electrical Rule Check for C:/Documents and Settings/TimPlace/My Documents/Teabox/Eagle_Projects/ELE-T300_IR_Temp/Sensor_IR_Temp.sch at 11/19/2004 05:24:18p
+
+WARNING: Sheet 1/1: POWER Pin U1G$2 V+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U1G$2 V- connected to GND
+WARNING: Sheet 1/1: POWER Pin U2 V+ connected to +5V
+
+Board and schematic are consistent
+
+    0 errors
+    3 warnings

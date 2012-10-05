@@ -1,0 +1,36 @@
+Drill Station Info File: C:/Program Files/EAGLE-4.11/projects/Sensor_IR_Temp/Sensor_IR_Temp.dri
+
+ Date              :  8/03/2004 10:21:48p
+ Drills            : C:/Program Files/EAGLE-4.11/projects/Sensor_IR_Temp/Sensor_IR_Temp.drl
+ Device            : Excellon drill station
+
+Parameter settings:
+
+ Tolerance Drill + :  2.50 %
+ Tolerance Drill - :  2.50 %
+ Rotate            : no
+ Mirror            : no
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+ Layers            : Drills Holes
+
+Drill File Info:
+
+ Data Mode         : Absolute
+ Units             : 1/1000 Inch
+ End Of Block      : CR/LF
+
+Drills used:
+
+ Code  Size       used
+
+ T01   20.000mil     6
+ T02   32.000mil     6
+
+Total number of drills: 12
+
+Plotfiles:
+
+ C:/Program Files/EAGLE-4.11/projects/Sensor_IR_Temp/Sensor_IR_Temp.drd
