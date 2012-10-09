@@ -1,0 +1,46 @@
+Drill Station Info File: C:/Documents and Settings/TimPlace/My Documents/Teabox/Eagle_Projects/ELE-T201_Expander/ELE-T201.dri
+
+ Date              :  7/03/2005 05:55:04p
+ Drills            : C:/Documents and Settings/TimPlace/My Documents/Teabox/Eagle_Projects/ELE-T201_Expander/ELE-T201.drl
+ Device            : Excellon drill station
+
+Parameter settings:
+
+ Tolerance Drill + :  2.50 %
+ Tolerance Drill - :  2.50 %
+ Rotate            : no
+ Mirror            : no
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+ Layers            : Drills Holes
+
+Drill File Info:
+
+ Data Mode         : Absolute
+ Units             : 1/1000 Inch
+ End Of Block      : CR/LF
+
+Drills used:
+
+ Code  Size       used
+
+ T01   24.000mil    59
+ T02   32.000mil     1
+ T03   35.000mil     6
+ T04   40.000mil    12
+ T05   44.000mil     8
+ T06   46.000mil    28
+ T07   50.000mil    28
+ T08   66.000mil     2
+ T09   70.000mil     1
+ T10   86.000mil     4
+ T11   125.000mil     4
+ T12   128.000mil     2
+
+Total number of drills: 155
+
+Plotfiles:
+
+ C:/Documents and Settings/TimPlace/My Documents/Teabox/Eagle_Projects/ELE-T201_Expander/ELE-T201.drd

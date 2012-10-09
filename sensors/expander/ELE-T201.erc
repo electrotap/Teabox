@@ -1,0 +1,14 @@
+EAGLE Version 4.11 Copyright (c) 1988-2003 CadSoft
+
+Electrical Rule Check for C:/Documents and Settings/TimPlace/My Documents/Teabox/Eagle_Projects/ELE-T201_Expander/ELE-T201.sch at  6/30/2005 10:18:39a
+
+WARNING: Sheet 1/1: SUPPLY Pin GND1 overwritten with GND
+WARNING: Sheet 1/1: SUPPLY Pin GND2 overwritten with GND
+WARNING: Sheet 1/1: POWER Pin U1G$1 V+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U1G$1 V- connected to GND
+WARNING: Sheet 1/1: POWER Pin U2 OUT connected to +5V
+
+Board and schematic are consistent
+
+    0 errors
+    5 warnings
