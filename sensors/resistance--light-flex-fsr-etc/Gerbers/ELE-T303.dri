@@ -1,0 +1,39 @@
+Drill Station Info File: C:/Program Files/EAGLE-4.11/projects/ELE-T303_Resistance/ELE-T303.dri
+
+ Date              :  9/02/2004 02:46:48p
+ Drills            : C:/Program Files/EAGLE-4.11/projects/ELE-T303_Resistance/ELE-T303.drl
+ Device            : Excellon drill station
+
+Parameter settings:
+
+ Tolerance Drill + :  2.50 %
+ Tolerance Drill - :  2.50 %
+ Rotate            : no
+ Mirror            : no
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+ Layers            : Drills Holes
+
+Drill File Info:
+
+ Data Mode         : Absolute
+ Units             : 1/1000 Inch
+ End Of Block      : CR/LF
+
+Drills used:
+
+ Code  Size       used
+
+ T01   24.000mil     3
+ T02   32.000mil     3
+ T03   40.000mil     3
+ T04   86.000mil     3
+ T05   125.000mil     1
+
+Total number of drills: 13
+
+Plotfiles:
+
+ C:/Program Files/EAGLE-4.11/projects/ELE-T303_Resistance/ELE-T303.drd
