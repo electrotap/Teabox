@@ -1,0 +1,13 @@
+EAGLE Version 4.11 Copyright (c) 1988-2003 CadSoft
+
+Electrical Rule Check for C:/Program Files/EAGLE-4.11/projects/Teabox_Analog/teabox_analog.sch at  4/02/2004 07:51:00p
+
+WARNING: Sheet 1/1: POWER Pin U1G$1 V+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U1G$1 V- connected to GND
+WARNING: Sheet 1/1: POWER Pin U2G$1 V+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U2G$1 V- connected to GND
+
+Board and schematic are consistent
+
+    0 errors
+    4 warnings
