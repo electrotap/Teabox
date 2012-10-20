@@ -1,0 +1,51 @@
+Drill Station Info File: C:/Documents and Settings/Jesse/My Documents/Electrotap/SVN/EagleProjects/ELE-T305_Joystick/ELE-T305.dri
+
+ Date              :  2/03/2007 01:19:16a
+ Drills            : C:/Documents and Settings/Jesse/My Documents/Electrotap/SVN/EagleProjects/ELE-T305_Joystick/Gerbers/ELE-T305.drl
+ Device            : Excellon drill station
+
+Parameter settings:
+
+ Tolerance Drill + :  2.50 %
+ Tolerance Drill - :  2.50 %
+ Rotate            : no
+ Mirror            : no
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+ Layers            : Drills Holes
+
+Drill File Info:
+
+ Data Mode         : Absolute
+ Units             : 1/10000 Inch
+ End Of Block      : CR/LF
+
+Drill Tolerances:
+
+ -- Requested --  -- Used Drill --
+
+ Size       used  Code  Size
+
+ 1.000mm       6  T03   39.000mil
+ 1.300mm       4  T05   51.000mil
+ 1.200mm       7  T04   47.000mil
+
+Drills used:
+
+ Code  Size       used
+
+ T01   24.000mil    15
+ T02   35.000mil     6
+ T03   39.000mil     6
+ T04   47.000mil     7
+ T05   51.000mil     4
+ T06   125.000mil     2
+ T07   128.000mil     2
+
+Total number of drills: 42
+
+Plotfiles:
+
+ C:/Documents and Settings/Jesse/My Documents/Electrotap/SVN/EagleProjects/ELE-T305_Joystick/ELE-T305.drd
