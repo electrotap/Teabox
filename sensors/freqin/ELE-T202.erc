@@ -1,0 +1,11 @@
+EAGLE Version 4.11 Copyright (c) 1988-2003 CadSoft
+
+Electrical Rule Check for C:/Documents and Settings/TimPlace/My Documents/Teabox/Eagle_Projects/ELE-T202_FreqIn/ELE-T202.sch at  6/02/2005 09:59:13a
+
+WARNING: Sheet 1/1: POWER Pin U1G$1 V+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U1G$1 V- connected to GND
+
+Board and schematic are consistent
+
+    0 errors
+    2 warnings

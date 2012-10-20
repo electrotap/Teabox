@@ -1,0 +1,48 @@
+Drill Station Info File: E:/Electrotap/EagleProjects/ELE-T202_FreqIn/ELE-T202.dri
+
+ Date              :  1/17/2007 09:44:03p
+ Drills            : E:/Electrotap/EagleProjects/ELE-T202_FreqIn/ELE-T202.drl
+ Device            : Excellon drill station
+
+Parameter settings:
+
+ Tolerance Drill + :  2.50 %
+ Tolerance Drill - :  2.50 %
+ Rotate            : no
+ Mirror            : no
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+ Layers            : Drills Holes
+
+Drill File Info:
+
+ Data Mode         : Absolute
+ Units             : 1/10000 Inch
+ End Of Block      : CR/LF
+
+Drill Tolerances:
+
+ -- Requested --  -- Used Drill --
+
+ Size       used  Code  Size
+
+ 1.300mm      12  T04   51.000mil
+
+Drills used:
+
+ Code  Size       used
+
+ T01   24.000mil    18
+ T02   35.000mil     6
+ T03   40.000mil    13
+ T04   51.000mil    12
+ T05   125.000mil     4
+ T06   128.000mil     2
+
+Total number of drills: 55
+
+Plotfiles:
+
+ E:/Electrotap/EagleProjects/ELE-T202_FreqIn/ELE-T202.drd
