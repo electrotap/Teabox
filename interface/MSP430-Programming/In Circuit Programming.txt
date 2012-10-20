@@ -1,0 +1,28 @@
+Electrotap L.L.C.
+606-A East Street
+Parkville, MO 64152
+info@electrotap.com
+www.electrotap.com
+
+30 September 2004
+
+
+
+Installing
+
+Put MSP430 CD in computer
+A web page will automatically pop up. At the bottom there will be a link saying “Click here to install MSP430 Tools” – do as it says…
+Now you should find yourself at a page with a list of things you can install. What you want to install is the MSP-FET430P140 Flash Emulation Tool in the Kickstart Flash section. Follow that link to run the installer.
+At the end of the installer process, it will ask you if you want to view the ReadMe or install the MSP430 Tool Software.  The ReadMe is optional, but you do need to install the MSP430 Tool Software.
+You will be required to restart your computer when you are done installing.
+
+
+
+Programming
+
+Connect the board to the JTAG Connector (num goes toward the J1-J4 jacks, the cable comes out toward the telephone jacks), and give the board power.
+Start the IAR C-Spy Debugger Program
+Go to File > Open…
+Choose NEW_TBOX.d43 (In the Debug\Exe folder)
+A Session Options dialog will appear. Choose f430 and click “OK” – the part will be initialized and programmed. If it fails the first time, you can try the procedure again and it will usually work.
+ Choose Execute > Go. After about 5 seconds, LED1 on the circuit should begin flashing.

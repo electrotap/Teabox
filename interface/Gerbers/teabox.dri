@@ -1,0 +1,61 @@
+Drill Station Info File: C:/Program Files/EAGLE-4.11/projects/Teabox_DesignFiles/teabox.dri
+
+ Date              :  7/23/2004 08:10:22p
+ Drills            : C:/Program Files/EAGLE-4.11/projects/Teabox_DesignFiles/teabox.drl
+ Device            : Excellon drill station
+
+Parameter settings:
+
+ Tolerance Drill + :  2.50 %
+ Tolerance Drill - :  2.50 %
+ Rotate            : no
+ Mirror            : no
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+ Layers            : Drills Holes
+
+Drill File Info:
+
+ Data Mode         : Absolute
+ Units             : 1/1000 Inch
+ End Of Block      : CR/LF
+
+Drill Tolerances:
+
+ -- Requested --  -- Used Drill --
+
+ Size       used  Code  Size
+
+ 1.300mm       4  T10   51.000mil
+ 0.850mm       3  T04   33.000mil
+ 1.150mm       2  T08   45.000mil
+
+Drills used:
+
+ Code  Size       used
+
+ T01   20.000mil   114
+ T02   24.000mil     8
+ T03   32.000mil    18
+ T04   33.000mil     3
+ T05   35.000mil    36
+ T06   40.000mil    45
+ T07   44.000mil     8
+ T08   45.000mil     2
+ T09   50.000mil    28
+ T10   51.000mil     4
+ T11   56.000mil     2
+ T12   66.000mil     3
+ T13   70.000mil     1
+ T14   86.000mil     7
+ T15   100.000mil     1
+ T16   125.000mil     5
+ T17   128.000mil    12
+
+Total number of drills: 297
+
+Plotfiles:
+
+ C:/Program Files/EAGLE-4.11/projects/Teabox_DesignFiles/teabox.drd

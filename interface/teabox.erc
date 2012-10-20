@@ -1,0 +1,53 @@
+EAGLE Version 4.11 Copyright (c) 1988-2003 CadSoft
+
+Electrical Rule Check for C:/Program Files/EAGLE-4.11/projects/Teabox_DesignFiles/teabox.sch at  7/23/2004 08:00:00p
+
+WARNING: Sheet 1/1: SUPPLY Pin GND1 overwritten with GND
+WARNING: Sheet 1/1: SUPPLY Pin GND2 overwritten with GND
+WARNING: Sheet 1/1: POWER Pin QG1 VCC connected to +5V
+WARNING: Sheet 1/1: POWER Pin QG2 VCC connected to +5V
+WARNING: Sheet 1/1: POWER Pin U3 VCC connected to +5V
+WARNING: Sheet 1/1: POWER Pin U3 VCC connected to +5V
+WARNING: Sheet 1/1: POWER Pin U3 VCC connected to +5V
+WARNING: Sheet 1/1: POWER Pin U3 VCC connected to +5V
+WARNING: Sheet 1/1: POWER Pin U1 VL4+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U1 VL+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U1 DGND connected to GND
+WARNING: Sheet 1/1: POWER Pin U1 VL3+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U1 VL2+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U1 VD+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U1 DGND4 connected to GND
+WARNING: Sheet 1/1: POWER Pin U1 DGND3 connected to GND
+WARNING: Sheet 1/1: POWER Pin S1 V+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U2 OUT connected to +5V
+WARNING: Sheet 1/1: POWER Pin U4 OUT connected to +3V3
+WARNING: Sheet 1/1: POWER Pin U5G$1 V+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U5G$1 V- connected to GND
+WARNING: Sheet 1/1: POWER Pin U6G$1 V+ connected to +5V
+WARNING: Sheet 1/1: POWER Pin U6G$1 V- connected to GND
+WARNING: Sheet 1/1: POWER Pin OX1 VCC connected to +5V
+ERROR: 2 OUTPUT Pins on net N$7
+WARNING: Sheet 1/1: pins overlap at (3 1.8)
+WARNING: Sheet 1/1: pins overlap at (3.4 1.8)
+WARNING: Sheet 1/1: pins overlap at (3.8 1.8)
+WARNING: Sheet 1/1, Net N$69: wire overlaps pin at (4.9 2.6)
+WARNING: Sheet 1/1, Net N$127: wire overlaps pin at (2.8 2)
+WARNING: Sheet 1/1, Net N$128: wire overlaps pin at (2.9 1.9)
+WARNING: Sheet 1/1, Net N$129: wire overlaps pin at (3 1.8)
+WARNING: Sheet 1/1, Net N$130: wire overlaps pin at (3.1 2.1)
+WARNING: Sheet 1/1, Net N$131: wire overlaps pin at (3.2 2)
+WARNING: Sheet 1/1, Net N$132: wire overlaps pin at (3.3 1.9)
+WARNING: Sheet 1/1, Net N$133: wire overlaps pin at (3.4 1.8)
+WARNING: Sheet 1/1, Net N$134: wire overlaps pin at (3.5 2.1)
+WARNING: Sheet 1/1, Net N$135: wire overlaps pin at (3.6 2)
+WARNING: Sheet 1/1, Net N$136: wire overlaps pin at (3.7 1.9)
+WARNING: Sheet 1/1, Net N$137: wire overlaps pin at (3.8 1.8)
+WARNING: Sheet 1/1, Net N$138: wire overlaps pin at (3.9 2.1)
+WARNING: Sheet 1/1, Net N$139: wire overlaps pin at (4 2)
+WARNING: Sheet 1/1, Net N$140: wire overlaps pin at (4.1 1.9)
+WARNING: Sheet 1/1, Net N$126: wire overlaps pin at (2.7 2.1)
+
+Board and schematic are consistent
+
+    1 errors
+   43 warnings
